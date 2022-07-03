@@ -6,7 +6,7 @@ export default function WeeklyWeather({ weeklyWeather, timezone }) {
   return (
     <div className="weekly">
       <h3 className="weekly__title">
-        Weekly <span>Weather</span>
+        Previsão <span>Semanal</span>
       </h3>
 
       {weeklyWeather.length > 0 &&
@@ -32,14 +32,14 @@ export default function WeeklyWeather({ weeklyWeather, timezone }) {
 
                   <div className="weekly__sun-times">
                     <div>
-                      <span>Sunrise</span>
+                      <span>Nascer do Sol</span>
                       <span>
                         {moment.unix(weather.sunrise).tz(timezone).format("LT")}
                       </span>
                     </div>
 
                     <div>
-                      <span>Sunset</span>
+                      <span>Pôr do sol</span>
                       <span>
                         {moment.unix(weather.sunset).tz(timezone).format("LT")}
                       </span>

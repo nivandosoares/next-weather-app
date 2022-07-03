@@ -18,14 +18,14 @@ export default function TodaysWeather({ city, weather, timezone }) {
 
           <div className="today__sun-times">
             <div>
-              <span>Sunrise</span>
+              <span>Nascer do Sol</span>
               <span>
                 {moment.unix(weather.sunrise).tz(timezone).format("LT")}
               </span>
             </div>
 
             <div>
-              <span>Sunset</span>
+              <span>Pôr do Sol</span>
               <span>
                 {moment.unix(weather.sunset).tz(timezone).format("LT")}
               </span>

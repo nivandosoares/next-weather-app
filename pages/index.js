@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Weather App - Next</title>
+        <title>Weather App </title>
       </Head>
 
       <div className="home">
         <div className="container">
-          <SearchBox placeholder="Search for a city..." />
+          <SearchBox placeholder="Busque uma cidade..." />
 
           <FamousPlaces />
         </div>

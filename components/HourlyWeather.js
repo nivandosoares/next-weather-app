@@ -16,7 +16,7 @@ export default function HourlyWeather({ hourlyWeather, timezone }) {
                   }`}
                 >
                   {index == 0
-                    ? "Now"
+                    ? "Agora"
                     : moment.unix(weather.dt).tz(timezone).format("LT")}
                 </span>
 
