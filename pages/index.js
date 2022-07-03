@@ -12,8 +12,6 @@ export default function Home() {
       <div className="home">
         <div className="container">
           <SearchBox placeholder="Busque uma cidade..." />
-
-          <FamousPlaces />
         </div>
       </div>
     </div>

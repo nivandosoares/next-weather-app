@@ -37,6 +37,7 @@ export default function SearchBox({ placeholder }) {
           };
 
           matchingCities.push(cityData);
+
           continue;
         }
       }
