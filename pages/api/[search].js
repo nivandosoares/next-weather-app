@@ -1,6 +1,6 @@
 import {
   cities
-} from "../../lib/city.list.json";
+} from "cities.js";
 
 export default function handler(req, res) {
   res.status(200)
