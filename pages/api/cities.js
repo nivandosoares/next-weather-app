@@ -9,7 +9,7 @@ function EndpointsPage() {
     const response = await fetch('/api/search')
     const data = await response.json()
     console.log(data)
-    setBooks(data)
+    setCities(data)
   }
 
   return(
