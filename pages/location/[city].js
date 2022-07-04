@@ -85,7 +85,6 @@ export default function City({
       <Head>
         <title>{city.name} Weather - Next Weather App</title>
       </Head>
-      <script>console.log(cities);</script>
       <div className="page-wrapper">
         <div className="container">
           <Link href="/">
